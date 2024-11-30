@@ -1,0 +1,24 @@
+.hero {
+    text-align: center; 
+    background-image: url("/images/cocktail.png");
+    background-color: azure;
+    background-size: cover;
+    padding: 250px 10px;
+}
+
+.hero h1 {
+    text-align: center;
+    font-family: "Pinyon Script", serif;
+    font-size: 160px;
+    color: white;
+}
+
+@media (max-width:960px) {
+    .hero {
+        padding:125px;
+    }
+
+    .hero h1 {
+        font-size: 80px;
+    }
+}
